@@ -55,6 +55,7 @@
   <flag value="-Wno-parentheses" />
   <flag value="-Wno-null-dereference" unless="HXCPP_GCC"/>
   <flag value="-Wno-unused-value" />
+  <flag value="-Wno-address-of-temporary" />
   <flag value="-Wno-bool-conversion" unless="HXCPP_GCC"/>
   <include name="toolchain/common-defines.xml" />
   <flag value="-DHXCPP_BIG_ENDIAN" if="HXCPP_BIG_ENDIAN"/>
